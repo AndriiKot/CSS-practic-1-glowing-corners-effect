@@ -14,5 +14,9 @@ body {
 .box {
   position: relative;
   background-color: #0e1538;
-  background-color: #000;
+}
+.box:before {
+  content: '';
+  position: absolute;
+  box-shadow: 0 0 0 20px #070c23;
 }
