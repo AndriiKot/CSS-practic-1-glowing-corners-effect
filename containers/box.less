@@ -5,6 +5,26 @@
   background-color: @background;
 }
 
-.box_before{
- 
+.box::before{
+  content: '';
+  position: absolute;
+  inset: -3px;
+  box-shadow: @shadow;
+  z-index: -1;
+  animation: line-ion 4s ease infinite;
 }
+
+.box::after{
+  content: '';
+  position: absolute;
+  inset: -3px;
+  z-index: -1;
+  filter: blur(20px);
+  animation: line-ion 4s ease infinite;
+}
+
+.box:nth-child(2)::after,
+.box.box:nth-child(2)::before{
+animation: line-ion 4s ease infinite;
+}
+
