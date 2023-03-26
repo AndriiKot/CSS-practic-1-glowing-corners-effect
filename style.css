@@ -10,3 +10,7 @@ body {
   min-height: 100vh;
   background-color: #0e1538;
 }
+.box {
+  position: relative;
+  background-color: #1eba55;
+}
