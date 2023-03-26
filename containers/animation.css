@@ -1,11 +1,8 @@
-// main: ../style.less
-
 @keyframes line-ion {
-  from{
+  from {
     background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
   }
   to {
     background: linear-gradient(-45deg, #42db14, #0e1538, #0e1538, #42db14);
   }
-  }
-  
+}
