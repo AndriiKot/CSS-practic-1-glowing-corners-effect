@@ -15,8 +15,3 @@ body {
   position: relative;
   background-color: #0e1538;
 }
-.box:before {
-  content: '';
-  position: absolute;
-  box-shadow: 0 0 0 20px #070c23;
-}
