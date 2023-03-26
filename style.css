@@ -9,8 +9,10 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #0e1538;
+  gap: 200px;
 }
 .box {
   position: relative;
   background-color: #0e1538;
+  background-color: #000;
 }
